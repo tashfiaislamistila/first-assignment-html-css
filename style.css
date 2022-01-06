@@ -1,19 +1,19 @@
 body{
     font-size: large;
     font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: 0px auto;
 }
 .focus{
     font-family: 'Cormorant Garamond', serif;
     margin-bottom: -70px;
-}
-h1{
-    font-size: 80px;
 }
 .mission-22{
     color: orange;
 }
 section{
     display: flex;
+margin-bottom: 150px;
 }
 .half{
     width:50%;
@@ -23,6 +23,7 @@ section{
     width: 70%;
 }
 #border{
+    font-size: 40px;
     padding-left:5% ;
    border-left: 5px solid tomato;
 }
@@ -42,7 +43,7 @@ section{
 }
 .second-section{
    text-align: center; 
-   margin-top: 50px;
+   margin-top: -100px;
 }
 .misson{
     width: 350px;
@@ -82,3 +83,39 @@ section{
     justify-content: space-around;
     padding: 50px;
 }
+.bold{
+    font-weight: 900;
+    font-size: xx-large;
+}
+.dwl{
+    margin-bottom: -30px;
+    }
+.dwl1{
+        margin-left: 60px;
+    }
+.coding-width img{
+        width: 500px;
+        padding-left: 80px;
+        text-align: justify;
+        background-repeat: no-repeat;
+        background-position : left;
+        padding-bottom: 70px;
+        padding-right: 80px;
+}
+    .pera{
+        width: 70%;
+    }
+    .repeat-img{
+        background-image: url(images/shapes/shape-1.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 250px;
+
+    }
+    .repeat-img2{
+        background-image: url(images/shapes/shape-1.png);
+        background-repeat: no-repeat;
+     background-position-y: 320px;
+     background-position-x: 410px;
+     background-size: 250px;
+    }
